@@ -1,5 +1,8 @@
-import courses from './courses.js';
-import studyGroups from './studyGroups.js';
+//import courses from './courses.js';
+const courses = require('./courses.js');
+//import studyGroups from './studygroups.js';
+const studyGroups = require('./studygroups.js');
+
 
 type Course = {
   id: number;
