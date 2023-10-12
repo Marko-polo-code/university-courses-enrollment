@@ -1,7 +1,5 @@
-//import courses from './courses.js';
-const courses = require('./courses.js');
-//import studyGroups from './studygroups.js';
-const studyGroups = require('./studygroups.js');
+import courses from './courses.js';
+import studyGroups from './studygroups.js';
 
 
 type Course = {
